@@ -1,0 +1,7 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": ["transform-class-properties", "transform-object-rest-spread"]
+}
+
+// Transform class properties from Babel helps us to get rid of constructors, binding this to class and allows us to use arrow functions inside class
+// Transform object rest spread property from Babel helps us to use object spread operator
